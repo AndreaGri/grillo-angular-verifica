@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'grillo_fila_b';
+  parola: string= 'app'
 }
