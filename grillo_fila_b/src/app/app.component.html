@@ -1,9 +1,11 @@
 
 <div class="div" style="background-color:rgb(0, 217, 255) ;">
-  <p >ciao sono l' <span style="color: brown;">{{parola}}</span> component</p>
-  <app-secondo></app-secondo>
-  <app-terzo></app-terzo>
-  <div class='div2' style="background-color: white;"><app-quarto></app-quarto></div>
+  <div class="div3">
+    <p >ciao sono l' <span style="color: brown;">{{parola}}</span> component</p>
+    <app-secondo></app-secondo>
+    <app-terzo></app-terzo>
+    <div class='div2' style="background-color: white;"><app-quarto></app-quarto></div>
+  </div>
 </div>
 
 <style>
@@ -17,6 +19,18 @@
   .div2{
     width: 300px;
     margin: auto;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border: solid 1px;
 
+  }
+  .div3{
+    text-align: center;
+    margin: auto;
+    position: relative
+    ;
+    top: 50px;
   }
 </style>
